@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <title>Academia MTB - Ciclismo de Montaña</title>
+</head>
+
+<body>
+    <header class="main__header">
+        <div>
+            <img src="./img/logo-apaisado.svg" width="350" alt="logo academia" />
+        </div>
+        <nav>
+            <ul class="main__header__nav">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./clases.html">Clases</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a class="main__header__nav-button" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="fixed">
+        <img src="./img/whatsapp.png" alt="whatsapp" width="80" height="80" />
+    </div>
+    <section class="contacto">
+        <h1>Contacto</h1>
+        <form action="" method="" class="form">
+            <label for="name">Nombre y Apellido</label><br/> 
+            <input type="text" class="form__input" name="nombre"><br/> 
+            <label for="email">Email</label><br/> 
+            <input type="email" class="form__input" name="email"><br/> 
+            <div class="flex">
+                <label for="accept">Acepta TyC</label>
+                <input type="checkbox" class="form__input" name="accept" value="Si" />
+            </div> <br/> 
+            <label for="clases">Seleccione para consultar</label>
+            <select name="clases" id="" class="form__input">
+                <option value="clases1">Clases para niños y adolescentes</option>
+                <option value="clases2">Clases para adultos</option>
+            </select>
+            <textarea name="message" cols="40" rows="5" placeholder="Escribe aquí tu consulta"></textarea>
+            <input type="submit" class="form__input-cta" value="Enviar Formulario">
+            <input type="reset" class="form__input-cta" value="Limpiar Formulario">
+        </form>
+    </section>
+    <!-- Inicio pie de página -->
+    <footer class="footer">
+        <div>
+            <img src="./img/logoacademia2.png" width="120" height="75" alt="logo empresa" />
+        </div>
+        <div>
+            <p>Mendoza, Argentina</p>
+        </div>
+        <div>
+            <img src="./img/ig.svg" width="50" alt="instagram" />
+            <img src="./img/fb.svg" width="50" alt="instagram" />
+        </div>
+    </footer>
+</body>
+
+</html>
